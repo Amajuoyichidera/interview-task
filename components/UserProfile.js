@@ -38,9 +38,9 @@ const UserProfile = () => {
           <img className="w-full h-64 object-cover rounded" src={user.picture.large} alt={`${user.name.first} ${user.name.last}`} />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2 text-gray-800">{`${user.name.first} ${user.name.last}`}</div>
-            <p className="text-gray-600 text-base">{user.email}</p>
-            <p className="text-gray-600 text-base">{user.location.country}</p>
-            <p className="text-gray-600 text-base">{user.gender}</p>
+            <p className="text-gray-600 text-base">Email: {user.email}</p>
+            <p className="text-gray-600 text-base">Country: {user.location.country}</p>
+            <p className="text-gray-600 text-base">Gender: {user.gender}</p>
           </div>
         </div>
       ))}
