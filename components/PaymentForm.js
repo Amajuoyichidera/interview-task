@@ -10,7 +10,6 @@ const PaymentForm = () => {
 
   const handlePayment = (e) => {
     e.preventDefault();
-    // Mock payment validation
     if (cardNumber === '1234 5678 1234 5678' && expiryDate === '12/24' && cvv === '123') {
       setSuccess(true);
       setError(null);

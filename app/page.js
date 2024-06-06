@@ -1,7 +1,6 @@
 import ProductCard from '../components/ProductCard';
 import UserProfile from '../components/UserProfile';
 import PaymentForm from '../components/PaymentForm';
-// import NotificationPanel from '../components/NotificationPanel';
 
 const Home = () => {
   const products = [
@@ -22,7 +21,6 @@ const Home = () => {
       <UserProfile />
       <h1 className="text-2xl font-bold my-8 text-center">Payment Form</h1>
       <PaymentForm />
-      {/* <NotificationPanel /> */}
     </div>
   );
 };
